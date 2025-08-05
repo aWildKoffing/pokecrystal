@@ -253,10 +253,10 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_SignalBeam
+	dw BattleAnim_xScissor
+	dw BattleAnim_NightSlash
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
-	dw BattleAnim_Dummy
-	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -1487,6 +1487,7 @@ BattleAnim_HyperBeam:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_SignalBeam:
 BattleAnim_AuroraBeam:
 	anim_1gfx BATTLE_ANIM_GFX_BEAM
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -1539,6 +1540,18 @@ BattleAnim_Cut:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
 	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_wait 32
+	anim_ret
+
+; experimental
+BattleAnim_NightSlash:
+	anim_3gfx BATTLE_ANIM_GFX_CUT, BATTLE_ANIM_GFX_HAZE, BATTLE_ANIM_GFX_SMOKE
+	anim_obj BATTLE_ANIM_OBJ_SMOKESCREEN, 64, 92, $6c
+	anim_wait 24
+	anim_incobj 1
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 148, 36, $0
 	anim_wait 32
 	anim_ret
 
@@ -4357,6 +4370,17 @@ BattleAnim_CrossChop:
 	anim_wait 8
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $58, $2, $0
 	anim_wait 92
+	anim_sound 0, 1, SFX_VICEGRIP
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $10
+	anim_wait 16
+	anim_ret
+
+BattleAnim_xScissor:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CROSS_CHOP1, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CROSS_CHOP2, 120, 72, $0
+	anim_wait 8
 	anim_sound 0, 1, SFX_VICEGRIP
 	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $10
 	anim_wait 16

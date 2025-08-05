@@ -252,17 +252,14 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw SignalBeamDescription
+	dw XScissorDescription
+	dw NightSlashDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFCDescription
-	dw MoveFDDescription
-	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFCDescription:
-MoveFDDescription:
-MoveFEDescription:
 MoveFFDescription:
 Move00Description:
 	db "?@"
@@ -1270,3 +1267,15 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+SignalBeamDescription:
+	db "An attack that may"
+	next "confuse the foe.@"
+
+XScissorDescription:
+	db "A powerful attack"
+	next "that cuts the foe@"
+
+NightSlashDescription:
+	db "An attack with a"
+	next "high crit ratio.@"

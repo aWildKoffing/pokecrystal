@@ -257,6 +257,9 @@
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
+	const SIGNAL_BEAM  ; fc
+	const X_SCISSOR    ; fd
+	const NIGHT_SLASH  ; fe
 DEF NUM_ATTACKS EQU const_value - 1
 
 DEF CANNOT_MOVE EQU $ff
