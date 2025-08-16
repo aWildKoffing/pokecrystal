@@ -1356,6 +1356,7 @@ GastlyEvosAttacks:
 	db 32, DREAM_EATER
 	db 36, SHADOW_BALL
 	db 40, DESTINY_BOND
+	db 45, DARK_PULSE
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -1373,6 +1374,7 @@ HaunterEvosAttacks:
 	db 38, DREAM_EATER
 	db 43, SHADOW_BALL
 	db 49, DESTINY_BOND
+	db 54, DARK_PULSE
 	db 0 ; no more level-up moves
 
 GengarEvosAttacks:
@@ -1389,6 +1391,7 @@ GengarEvosAttacks:
 	db 38, DREAM_EATER
 	db 45, SHADOW_BALL
 	db 53, DESTINY_BOND
+	db 60, DARK_PULSE
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
@@ -2802,6 +2805,7 @@ UmbreonEvosAttacks:
 	db 30, CONFUSE_RAY
 	db 36, FAINT_ATTACK
 	db 42, MEAN_LOOK
+	db 44, DARK_PULSE
 	db 47, SCREECH
 	db 52, MOONLIGHT
 	db 0 ; no more level-up moves
@@ -2814,7 +2818,8 @@ MurkrowEvosAttacks:
 	db 22, NIGHT_SHADE
 	db 26, WING_ATTACK
 	db 31, FAINT_ATTACK
-	db 41, MEAN_LOOK
+	db 36, MEAN_LOOK
+	db 42, DARK_PULSE
 	db 48, DRILL_PECK
 	db 0 ; no more level-up moves
 
