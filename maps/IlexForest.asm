@@ -909,16 +909,16 @@ Text_KurtCaughtCelebi:
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Did you know your"
+	line "#MON can eat a"
 
-	para "You frightened a"
-	line "#MON away!"
+	para "BERRY to heal"
+	line "during battle?"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "I'm fucked when"
+	line "dad finds out…"
 	done
 
 BugCatcherWayneAfterBattleText:

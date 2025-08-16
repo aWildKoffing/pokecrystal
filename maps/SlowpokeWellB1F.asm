@@ -188,7 +188,7 @@ GruntM29SeenText:
 	text "Darn! I was stand-"
 	line "ing guard up top"
 
-	para "when some old coot"
+	para "when some old fuck"
 	line "yelled at me."
 
 	para "He startled me so"
@@ -223,11 +223,21 @@ GruntM29AfterBattleText:
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
+	text "Most of the"
+	line "recruits here"
+
+	para "aren't even worth"
+	line "the cost of the"
+	cont "uniform they wear."
+
+	para "We need the"
+	line "money that these"
+	cont "tails will fetch."
 
 	para "If you interrupt"
-	line "our work, don't"
+	line "my work kid, don't"
 	cont "expect any mercy!"
+
 	done
 
 GruntM1BeatenText:

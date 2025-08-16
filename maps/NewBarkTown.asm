@@ -173,6 +173,7 @@ NewBarkTown_TeacherBringsYouBackMovement2:
 NewBarkTown_RivalPushesYouAwayMovement:
 	turn_head UP
 	step DOWN
+	step DOWN
 	step_end
 
 NewBarkTown_RivalShovesYouOutMovement:
@@ -255,8 +256,7 @@ NewBarkTownRivalText1:
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "…Piss off!"
 	done
 
 NewBarkTownSignText:

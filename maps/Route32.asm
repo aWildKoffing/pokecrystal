@@ -627,10 +627,14 @@ Text_RefusedToBuySlowpokeTail:
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "Whoa! Fuck!"
 
 	para "You made me lose"
-	line "that fish!"
+	line "that big fish!"
+
+	para "I'm gonna kick"
+	line "your ass!"
+
 	done
 
 FisherJustinBeatenText:
@@ -816,7 +820,14 @@ BirdKeeperPeterSeenText:
 	text "That BADGE! It's"
 	line "from VIOLET CITY!"
 
-	para "You beat FALKNER?"
+	para "Do you think that"
+	line "makes you tough?"
+
+	para "FALKNER's a little"
+	line "bitch... I'll"
+
+	para "show you the true"
+	line "power of birds."
 	done
 
 BirdKeeperPeterBeatenText:

@@ -211,19 +211,17 @@ SageLiSeenText:
 	line "place of training."
 
 	para "People and #MON"
-	line "test their bonds"
-
-	para "to build a bright"
-	line "future together."
+	line "test their bonds."
 
 	para "I am the final"
-	line "test."
+	line "test. Some say"
 
-	para "Allow me to check"
-	line "the ties between"
+	para "that I rival the"
+	line "power of FALKNER."
 
-	para "your #MON and"
-	line "you!"
+	para "This will not be"
+	line "easy."
+
 	done
 
 SageLiBeatenText:

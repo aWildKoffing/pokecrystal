@@ -82,7 +82,8 @@ MartAzalea:
 	db -1 ; end
 
 MartCianwood:
-	db 5 ; # items
+	db 6 ; # items
+	db POKE_BALL
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
@@ -102,7 +103,7 @@ MartGoldenrod2F1:
 	db -1 ; end
 
 MartGoldenrod2F2:
-	db 8 ; # items
+	db 9 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db ESCAPE_ROPE
@@ -111,6 +112,7 @@ MartGoldenrod2F2:
 	db FULL_HEAL
 	db POKE_DOLL
 	db FLOWER_MAIL
+	db EON_MAIL
 	db -1 ; end
 
 MartGoldenrod3F:

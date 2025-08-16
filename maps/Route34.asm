@@ -508,11 +508,21 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 YoungsterSamuelSeenText:
 	text "This is where I do"
 	line "my training!"
+
+	para "It's been a while"
+	line "since anyone has"
+	cont "beaten me!"
+
+	para "Think you've got"
+	line "what it takes?"
 	done
 
 YoungsterSamuelBeatenText:
 	text "Beaten by a"
 	line "passing stranger!"
+
+	para "I can't believe"
+	line "I broke my streak!"
 	done
 
 YoungsterSamuelMobileText: ; unreferenced

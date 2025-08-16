@@ -274,13 +274,18 @@ Route31CooltrainerMText:
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "I got my friend"
+	line "from AZALEA TOWN"
+	
+	para "to teach my BUG"
+	line "#MON their top"
+	cont "secret TM move!"
 	done
 
 BugCatcherWade1BeatenText:
 	text "Awwwww…"
+	line "I guess a move"
+	cont "isn't enough…"
 	done
 
 BugCatcherWade1AfterText:
@@ -304,6 +309,7 @@ Text_Route31SleepyMan:
 
 	para "My feet hurt and"
 	line "I'm sleepy…"
+	cont "Why's my dick out?"
 
 	para "If I were a wild"
 	line "#MON, I'd be"
