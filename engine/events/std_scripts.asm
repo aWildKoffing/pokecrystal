@@ -107,14 +107,11 @@ PokecenterNurseScript:
 	clearevent EVENT_WELCOMED_TO_POKECOM_CENTER
 
 	farwritetext NurseAskHealText
-	yesorno
-	iffalse .done
 
-	farwritetext NurseTakePokemonText
-	pause 20
+	pause 5
 	special StubbedTrainerRankings_Healings
 	turnobject LAST_TALKED, LEFT
-	pause 10
+	pause 5
 	special HealParty
 	playmusic MUSIC_NONE
 	setval HEALMACHINE_POKECENTER
@@ -131,19 +128,15 @@ PokecenterNurseScript:
 	special CheckPokerus
 	iftrue .pokerus
 .no
-
 	farwritetext NurseReturnPokemonText
-	pause 20
+	pause 5
 
 .done
-	farwritetext NurseGoodbyeText
-
 	turnobject LAST_TALKED, UP
 	pause 10
 	turnobject LAST_TALKED, DOWN
 	pause 10
 
-	waitbutton
 	closetext
 	end
 

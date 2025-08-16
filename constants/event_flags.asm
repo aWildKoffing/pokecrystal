@@ -1043,6 +1043,10 @@
 	const EVENT_BEAT_SAGE_MASA
 	const EVENT_BEAT_SAGE_KOJI
 ; Unused: next 116 events
+; Nick added events
+	const EVENT_CHARMANDER_POKEBALL_IN_ELMS_LAB
+	const EVENT_SQUIRTLE_POKEBALL_IN_ELMS_LAB
+	const EVENT_BULBASAUR_POKEBALL_IN_ELMS_LAB
 
 	const_next 1600
 ; Sprite visibility flags
