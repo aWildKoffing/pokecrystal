@@ -285,56 +285,56 @@ JohtoGrassWildMons:
 	def_grass_wildmons BURNED_TOWER_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, RATTATA
+	db 14, MEOWTH
 	db 14, KOFFING
 	db 15, RATTATA
-	db 14, ZUBAT
-	db 15, RATTATA
+	db 14, VULPIX
+	db 15, ZUBAT
 	db 15, RATICATE
 	db 15, RATICATE
 	; day
-	db 13, RATTATA
+	db 14, MEOWTH
 	db 14, KOFFING
 	db 15, RATTATA
-	db 14, ZUBAT
-	db 15, RATTATA
+	db 14, VULPIX
+	db 15, ZUBAT
 	db 15, RATICATE
 	db 15, RATICATE
 	; nite
-	db 13, RATTATA
+	db 14, MEOWTH
 	db 14, KOFFING
-	db 15, RATTATA
-	db 14, ZUBAT
-	db 15, RATTATA
+	db 15, MISDREAVUS
+	db 14, MURKROW
+	db 15, GASTLY
 	db 15, RATICATE
-	db 15, RATICATE
+	db 15, HAUNTER
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, RATTATA
+	db 14, MEOWTH
 	db 14, KOFFING
-	db 16, KOFFING
-	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 16, ZUBAT
+	db 15, MAGBY
+	db 14, GASTLY
+	db 16, MISDREAVUS
 	db 16, WEEZING
 	; day
-	db 14, RATTATA
+	db 14, MEOWTH
 	db 14, KOFFING
-	db 16, KOFFING
-	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 16, ZUBAT
+	db 15, MAGBY
+	db 14, GASTLY
+	db 16, MISDREAVUS
 	db 16, WEEZING
 	; nite
-	db 14, RATTATA
+	db 14, MEOWTH
 	db 14, KOFFING
-	db 16, KOFFING
-	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 16, MISDREAVUS
+	db 15, MAGBY
+	db 14, GASTLY
+	db 16, GASTLY
 	db 16, WEEZING
 	end_grass_wildmons
 

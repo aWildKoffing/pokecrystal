@@ -1961,8 +1961,8 @@ JolteonEvosAttacks:
 	db 30, DOUBLE_KICK
 	db 36, PIN_MISSILE
 	db 42, THUNDER_WAVE
-	db 47, AGILITY
-	db 52, THUNDER
+	db 47, THUNDER
+	db 52, AGILITY
 	db 0 ; no more level-up moves
 
 FlareonEvosAttacks:
@@ -1973,10 +1973,10 @@ FlareonEvosAttacks:
 	db 16, EMBER
 	db 23, QUICK_ATTACK
 	db 30, BITE
-	db 36, FIRE_SPIN
+	db 36, FLAME_WHEEL
 	db 42, SMOG
-	db 47, LEER
-	db 52, FLAMETHROWER
+	db 47, FLAMETHROWER
+	db 52, FIRE_SPIN
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
@@ -2802,6 +2802,7 @@ EspeonEvosAttacks:
 	db 30, SWIFT
 	db 36, PSYBEAM
 	db 42, PSYCH_UP
+	db 44, CHARM
 	db 47, PSYCHIC_M
 	db 52, MORNING_SUN
 	db 0 ; no more level-up moves
