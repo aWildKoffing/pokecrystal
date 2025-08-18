@@ -395,7 +395,6 @@ PikachuEvosAttacks:
 	db 45, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
-; AddTo Raichu: Learn moves after evolution
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
@@ -1475,29 +1474,33 @@ VoltorbEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 9, SCREECH
-	db 17, SONICBOOM
+	db 12, SPARK
+	db 16, SONICBOOM
+	db 20, ROLLOUT
 	db 23, SELFDESTRUCT
-	db 29, ROLLOUT
+	db 29, THUNDERBOLT
 	db 33, LIGHT_SCREEN
 	db 37, SWIFT
 	db 39, EXPLOSION
-	db 41, MIRROR_COAT
+	db 41, THUNDER
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SPARK
 	db 1, SCREECH
 	db 1, SONICBOOM
 	db 1, SELFDESTRUCT
 	db 9, SCREECH
-	db 17, SONICBOOM
+	db 12, SPARK
+	db 16, SONICBOOM
+	db 20, ROLLOUT
 	db 23, SELFDESTRUCT
-	db 29, ROLLOUT
+	db 29, THUNDERBOLT
 	db 34, LIGHT_SCREEN
 	db 40, SWIFT
 	db 44, EXPLOSION
-	db 48, MIRROR_COAT
+	db 48, THUNDER
 	db 0 ; no more level-up moves
 
 ExeggcuteEvosAttacks:
@@ -1682,6 +1685,7 @@ TangelaEvosAttacks:
 	db 34, STUN_SPORE
 	db 40, SLAM
 	db 46, GROWTH
+	db 52, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 KangaskhanEvosAttacks:
@@ -2541,10 +2545,13 @@ NatuEvosAttacks:
 	db 1, PECK
 	db 1, LEER
 	db 10, NIGHT_SHADE
-	db 20, TELEPORT
-	db 30, FUTURE_SIGHT
+	db 13, TELEPORT
+	db 20, PSYBEAM
+	db 25, WING_ATTACK
+	db 29, FUTURE_SIGHT
+	db 35, LIGHT_SCREEN
 	db 40, CONFUSE_RAY
-	db 50, PSYCHIC_M
+	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 XatuEvosAttacks:
@@ -2553,10 +2560,13 @@ XatuEvosAttacks:
 	db 1, LEER
 	db 1, NIGHT_SHADE
 	db 10, NIGHT_SHADE
-	db 20, TELEPORT
-	db 35, FUTURE_SIGHT
-	db 50, CONFUSE_RAY
-	db 65, PSYCHIC_M
+	db 13, TELEPORT
+	db 20, PSYBEAM
+	db 25, WING_ATTACK
+	db 33, FUTURE_SIGHT
+	db 42, LIGHT_SCREEN
+	db 47, CONFUSE_RAY
+	db 55, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 MareepEvosAttacks:
@@ -2749,7 +2759,8 @@ YanmaEvosAttacks:
 	db 1, FORESIGHT
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
-	db 19, SONICBOOM
+	db 15, LEECH_LIFE
+	db 20, SONICBOOM
 	db 25, DETECT
 	db 31, SUPERSONIC
 	db 37, WING_ATTACK

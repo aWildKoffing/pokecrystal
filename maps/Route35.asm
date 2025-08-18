@@ -279,11 +279,11 @@ CamperIvanSeenText:
 	line "#MON data off"
 
 	para "my radio. I think"
-	line "I'm good."
+	line "I'm good!"
 	done
 
 CamperIvanBeatenText:
-	text "I give!"
+	text "I yield!"
 	done
 
 CamperIvanAfterBattleText:
@@ -294,8 +294,8 @@ CamperIvanAfterBattleText:
 
 CamperElliotSeenText:
 	text "I'm gonna show my"
-	line "girlfriend I'm hot"
-	cont "stuff!"
+	line "girlfriend that I'm"
+	cont "the shit!"
 	done
 
 CamperElliotBeatenText:
@@ -304,20 +304,23 @@ CamperElliotBeatenText:
 	done
 
 CamperElliotAfterBattleText:
-	text "I was humiliated"
+	text "You humiliated me"
 	line "in front of my"
 	cont "girlfriend…"
+
+	para "Now she thinks I'm"
+	line "a total pussy."
 	done
 
 PicnickerBrookeSeenText:
 	text "My boyfriend's"
-	line "weak, so I can't"
-	cont "rely on him."
+	line "such a wanker…" 
+	cont "I can't rely on him."
 	done
 
 PicnickerBrookeBeatenText:
 	text "Oh, my! You're so"
-	line "strong!"
+	line "strong! Mm… Mmm…"
 	done
 
 PicnickerBrookeAfterBattleText:
@@ -360,12 +363,9 @@ BirdKeeperBryanAfterBattleText:
 	line "with KURT's FAST"
 	cont "BALL."
 
-	para "Whenever I find a"
-	line "WHT APRICORN, I"
-	cont "take it to KURT."
-
-	para "He turns it into a"
-	line "custom BALL."
+	para "You can also buy"
+	line "then from Goldenrod"
+	cont "dept. store now."
 	done
 
 JugglerIrwin1SeenText:
@@ -374,8 +374,7 @@ JugglerIrwin1SeenText:
 	done
 
 JugglerIrwin1BeatenText:
-	text "Whew! That was a"
-	line "jolt!"
+	text "I need bigger BALLs!"
 	done
 
 JugglerIrwinAfterBattleText:
