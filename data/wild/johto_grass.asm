@@ -1489,16 +1489,16 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_38
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, RATTATA
-	db 16, RATICATE
+	db 16, ODDISH
+	db 16, PONYTA
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
 	; day
-	db 16, RATTATA
-	db 16, RATICATE
+	db 16, ODDISH
+	db 16, PONYTA
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 13, TAUROS
@@ -1509,26 +1509,26 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	db 15, HOUNDOUR
+	db 16, HOUNDOUR
+	db 16, HOUNDOUR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, RATTATA
-	db 16, RATICATE
+	db 16, SUNKERN
+	db 16, DODUO
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, SKARMORY
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
 	; day
-	db 16, RATTATA
-	db 16, RATICATE
+	db 16, HOPPIP
+	db 16, DODUO
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, SKARMORY
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1537,9 +1537,9 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MEOWTH
-	db 18, MEOWTH
+	db 18, MURKROW
+	db 17, GOLBAT
+	db 17, GOLBAT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42

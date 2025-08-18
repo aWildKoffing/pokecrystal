@@ -434,6 +434,9 @@ BeautyOliviaSeenText:
 BeautyOliviaBeatenText:
 	text "We drink MOOMOO"
 	line "MILK every day."
+
+	para "Mmmm we love"
+	line "our milky!"
 	done
 
 BeautyOliviaAfterBattleText:

@@ -1137,12 +1137,13 @@ PonytaEvosAttacks:
 	db 1, TACKLE
 	db 4, GROWL
 	db 8, TAIL_WHIP
-	db 13, EMBER
+	db 12, EMBER
 	db 19, STOMP
-	db 26, FIRE_SPIN
+	db 22, FLAME_WHEEL
+	db 28, FIRE_SPIN
 	db 34, TAKE_DOWN
 	db 43, AGILITY
-	db 53, FIRE_BLAST
+	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 RapidashEvosAttacks:
@@ -1153,13 +1154,14 @@ RapidashEvosAttacks:
 	db 1, EMBER
 	db 4, GROWL
 	db 8, TAIL_WHIP
-	db 13, EMBER
+	db 12, EMBER
 	db 19, STOMP
-	db 26, FIRE_SPIN
+	db 22, FLAME_WHEEL
+	db 28, FIRE_SPIN
 	db 34, TAKE_DOWN
-	db 40, FURY_ATTACK
+	db 40, MEGAHORN
 	db 47, AGILITY
-	db 61, FIRE_BLAST
+	db 57, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -2577,7 +2579,8 @@ MareepEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 16, THUNDER_WAVE
 	db 23, COTTON_SPORE
-	db 30, LIGHT_SCREEN
+	db 29, THUNDERBOLT
+	db 33, LIGHT_SCREEN
 	db 37, THUNDER
 	db 0 ; no more level-up moves
 
@@ -2590,7 +2593,8 @@ FlaaffyEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
-	db 36, LIGHT_SCREEN
+	db 32, THUNDERBOLT
+	db 38, LIGHT_SCREEN
 	db 45, THUNDER
 	db 0 ; no more level-up moves
 
@@ -2604,8 +2608,9 @@ AmpharosEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
 	db 30, THUNDERPUNCH
-	db 42, LIGHT_SCREEN
-	db 57, THUNDER
+	db 40, THUNDERBOLT
+	db 45, LIGHT_SCREEN
+	db 56, THUNDER
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
