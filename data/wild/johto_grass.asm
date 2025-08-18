@@ -341,29 +341,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, NIDORAN_M
-	db 12, NIDORAN_F
+	db 12, METAPOD
+	db 12, KAKUNA
 	db 14, LEDYBA
-	db 13, PIDGEY
-	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 13, PINSIR
+	db 12, SCYTHER
+	db 13, SCYTHER
+	db 10, ESPEON
 	; day
-	db 12, NIDORAN_F
-	db 12, NIDORAN_M
+	db 12, METAPOD
+	db 12, KAKUNA
 	db 14, SUNKERN
-	db 13, PIDGEY
-	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 13, PINSIR
+	db 12, SCYTHER
+	db 13, SCYTHER
+	db 12, HERACROSS
 	; nite
 	db 12, PSYDUCK
-	db 13, HOOTHOOT
+	db 13, MURKROW
 	db 14, SPINARAK
-	db 15, HOOTHOOT
-	db 10, VENONAT
+	db 15, PINECO
 	db 12, VENONAT
-	db 12, VENONAT
+	db 13, MISDREAVUS
+	db 10, UMBREON
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
